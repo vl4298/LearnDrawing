@@ -13,6 +13,7 @@
 		28CCF8511D1A39930023A0B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28CCF8501D1A39930023A0B8 /* Assets.xcassets */; };
 		28CCF8541D1A39930023A0B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28CCF8521D1A39930023A0B8 /* LaunchScreen.storyboard */; };
 		28CCF8841D1A8BE20023A0B8 /* TransformContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CCF8831D1A8BE20023A0B8 /* TransformContext.swift */; };
+		CDDC3FEC1D1AC9A100D209FD /* CGRect+Extensiom.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDC3FEB1D1AC9A100D209FD /* CGRect+Extensiom.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		28CCF8531D1A39930023A0B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28CCF8551D1A39930023A0B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28CCF8831D1A8BE20023A0B8 /* TransformContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransformContext.swift; sourceTree = "<group>"; };
+		CDDC3FEB1D1AC9A100D209FD /* CGRect+Extensiom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRect+Extensiom.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				28CCF8521D1A39930023A0B8 /* LaunchScreen.storyboard */,
 				28CCF8551D1A39930023A0B8 /* Info.plist */,
 				28CCF8831D1A8BE20023A0B8 /* TransformContext.swift */,
+				CDDC3FEB1D1AC9A100D209FD /* CGRect+Extensiom.swift */,
 			);
 			path = LearnDrawing;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDDC3FEC1D1AC9A100D209FD /* CGRect+Extensiom.swift in Sources */,
 				28CCF8841D1A8BE20023A0B8 /* TransformContext.swift in Sources */,
 				28CCF84C1D1A39930023A0B8 /* ViewController.swift in Sources */,
 				28CCF84A1D1A39930023A0B8 /* AppDelegate.swift in Sources */,
