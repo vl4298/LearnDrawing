@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A91ADD33AFEC6909A6D3567A312929DC657475DB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A91ADD33AFEC6909A6D3567A312929DC657475DB" : 0,
+    "7B0F20782CACD5F5332B7C8B7ADDCD6E95274F27" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D3D7D6A3-3045-4D84-9A74-962C2638C9A5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A91ADD33AFEC6909A6D3567A312929DC657475DB" : "LearnDrawing\/",
+    "7B0F20782CACD5F5332B7C8B7ADDCD6E95274F27" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "LearnDrawing",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "LearnDrawing\/LearnDrawing.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/vl4298\/DLCardViewCollection.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7B0F20782CACD5F5332B7C8B7ADDCD6E95274F27"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/vl4298\/LearnDrawing.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A91ADD33AFEC6909A6D3567A312929DC657475DB"
+    }
+  ]
+}
