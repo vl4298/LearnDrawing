@@ -13,6 +13,14 @@ extension CGRect {
   func dl_center() -> CGPoint {
     return CGPoint(x: CGRectGetMidX(self), y: CGRectGetMidY(self))
   }
+  
+  func rectInsetBy(percent percent: CGFloat) -> CGRect {
+    let width = self.size.width * percent
+    let height = self.size.height * percent
+    let returnRect = CGRectInset(self, width, height)
+    
+    return returnRect
+  }
 }
 
 func rectAroundCenter(center: CGPoint, size: CGSize) -> CGRect {
@@ -54,4 +62,13 @@ func rectByFillingRect(sourceRect: CGRect, destRect: CGRect) -> CGRect {
   return rectAroundCenter(destRect.dl_center(), size: targetSize)
 }
 
+func sizeMakeRect(size: CGSize) -> CGRect {
+  return CGRect(x: 0, y: 0, width: size.width, height: size.height)
+}
+
+func addClip(context: CGContext, rect: CGRect) {
+  let path = UIBezierPath(rect: rect)
+  CGContextAddPath(context, path.CGPath)
+  CGContextClip(context)
+}
 
